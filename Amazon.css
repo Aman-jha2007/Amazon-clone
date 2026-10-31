@@ -1,0 +1,874 @@
+
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.navlogo{
+
+padding-left: 5px;
+}
+.navlogo:hover{
+   border: 1.5px solid #fff;
+    
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 80px;
+}
+.border:hover{
+    border: 2px solid transparent;
+    border: 2px solid white;
+    
+}
+
+/**locatio**/
+.location{
+    color: #fff;
+    
+}
+.location pre{
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+.icon span{
+    font-size: 0.96rem;
+    font-weight: 400;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+
+/**search**/
+select{
+    width: 50px;
+    height: 30px;
+    color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.searchbutton{
+    width: 600px;
+    height: 30px;
+    border: none;
+
+}
+.search{
+    display: flex;
+}
+.search select{
+    border: none;
+}
+
+.mag{
+width: 30px;
+height: 30px;
+color: #0f1111;
+background-color: rgb(212, 145, 20);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+font-weight: 400;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+/**Account login **/
+.account p{
+    color: #fff;
+    font-size: 0.7rem;
+}
+.account span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.account:hover{
+    border: 2px solid #fff;
+}
+/**order&return**/
+.order p{
+    color: #fff;
+    font-size: 0.7rem;
+}
+.order span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.order:hover{
+    border: 2px solid #fff
+}
+/**cart**/
+.cart p{
+    font-size: 1rem;
+    
+    color: #fff;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+}
+.cart i{
+    width: 19px;
+    height: 20px;
+    color: #fff;
+    align-items: center;
+    display: inline;
+    font-weight: 700;
+}
+.cart:hover{
+    border: 2px solid #fff;
+}
+
+
+/** menu**/
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: #222f3d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+
+.all{
+font-weight: 700;
+}
+.deals{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.deals p{
+    display: inline;
+    
+}
+.shopdeals p{
+    margin-left: 370px;
+    align-items: end;
+}
+
+
+
+.background{
+    width: 100%;
+    height: 400px;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center
+  
+}
+/** content**/
+.content{
+    width: 95%;
+    height: 40px;
+    background-color: #fff;
+    color: #0f1111;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content p{
+font-size: 1rem;
+color: black;
+
+}
+
+.content a{
+color: #2162a1;
+
+}
+
+/**body**/
+.shoping{
+display: flex;
+border: #2162a1;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+}
+
+
+.out1{
+background-color: #fff;
+width: 20%;
+margin-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+.box1{
+height: 250px;
+
+background-image: url(box1_image.jpg);
+background-size: cover;
+
+
+}
+.out2{
+    width: 20%;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-left: 20px;
+padding-right: 20px;
+}
+.box2{
+height: 250px;
+
+background-image: url(box2_image.jpg);
+background-size: cover;
+    
+}
+.out3{
+    margin-top: 20px;
+    width: 20%;
+    background-color: #fff;
+    padding-left: 20px;
+padding-right: 20px;
+}
+.box3{
+
+height: 250px;
+
+background-image: url(box3_image.jpg);
+background-size: cover;
+
+    
+}
+.out4{
+    width: 20%;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-left: 20px;
+padding-right: 20px;
+}
+.box4{
+
+    height: 250px;
+
+background-image: url(box4_image.jpg);
+background-size: cover;
+
+}
+
+.shoping1{
+display: flex;
+border: #2162a1;
+background-color: #e2e7e6;
+justify-content: space-evenly;
+}
+
+.out5{
+background-color: #fff;
+width: 20%;
+margin-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.box5{
+height: 250px;
+
+background-image: url(box5_image.jpg);
+background-size: cover;
+
+}
+.out6{
+    width: 20%;
+    margin-top: 20px;
+    background-color: #fff;
+    padding-left: 20px;
+padding-right: 20px;
+}
+.box6{
+height: 250px;
+
+background-image: url(box6_image.jpg);
+background-size: cover;
+    
+}
+.out7{
+    width: 20%;
+    margin-top: 20px;
+    background-color: #fff;
+    padding-left: 20px;
+padding-right: 20px;
+}
+.box7{
+
+height: 250px;
+
+background-image: url(box7_image.jpg);
+background-size: cover;
+
+    
+}
+.out8{
+    
+    width: 20%;
+    margin-top: 20px;
+    background-color: #fff;
+    padding-left: 20px;
+padding-right: 20px;
+}
+.box8{
+
+    height: 250px;
+
+background-image: url(box8_image.jpg);
+background-size: cover;
+
+}
+h3{
+ margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+.out1 h3{
+margin-left: 90px;
+
+}
+.out3 h3{
+    margin-left: 80px;
+}
+
+.out4 h3{
+    margin-left: 80px;
+}
+.out5 h3{
+    margin-left: 80px;
+}
+.out6 h3{
+    margin-left: 80px;
+}
+.shoping p{
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.shoping1 p{
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+.out8 h3{
+    margin-left: 10px;
+}
+
+/** footer**/
+footer{
+
+    margin-top: 20px;
+}
+
+.backcontact{
+    width: 100%;
+    height: 50px;
+    background-color: #37475a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1rem;
+}
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.footer2 ul{
+   margin-top: 30px;
+}
+.bot{
+    background-color: #222f3d;
+    color: #fff; 
+    
+}
+
+.footer2{
+    height: 350px;
+    
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer2 p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+/**logo end**/
+.endlogo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    width: 120px;
+    height: 60px;
+    margin: 30px;
+    margin-left: 280px;
+    margin-right: 80px;
+}
+.endbody{
+    display: flex;
+    align-items: center;
+}
+
+.eng{
+    padding: 4px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 100px;
+    padding-left: 30px;
+}
+.united{
+    display: flex;
+    margin-left: 20px;
+    padding: 4px;
+    height: 20px;
+    width: 160px;
+    padding-left: 20px;
+    border: 2px solid white;
+}
+.usd{
+    margin-left: 20px;
+    padding: 4px;
+    border: 2px solid white;
+    height: 20px;
+    width: 160px;
+    padding-left: 20px;
+}
+.footend{
+    background-color: #0f1111;
+    color: #fff;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footend a{
+align-items: center;
+justify-content: center;
+}
+.page{
+    
+    display: block;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: center;
+    margin-left: 400px;
+}
+.page a{
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright{
+    display: block;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ================================
+   RESPONSIVE AMAZON CLONE
+================================ */
+
+/* Tablet and small laptops */
+@media screen and (max-width: 1024px) {
+
+    .navbar {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+        min-height: 60px;
+        padding: 8px;
+        gap: 12px;
+    }
+
+    .search {
+        width: 40%;
+    }
+
+    .searchbutton {
+        min-width: 0;
+    }
+
+    .shopdeals p {
+        margin-left: 20px;
+    }
+
+    .out1, .out2, .out3, .out4,
+    .out5, .out6, .out7, .out8 {
+        width: 23%;
+        padding: 10px;
+    }
+
+    .endlogo {
+        margin-left: 80px;
+    }
+
+    .page, .copyright {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Tablets and mobile devices */
+@media screen and (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        justify-content: space-between;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .navlogo {
+        padding: 0;
+    }
+
+    .logo {
+        width: 75px;
+        height: 45px;
+    }
+
+    .location {
+        font-size: 12px;
+    }
+
+    .location pre {
+        font-size: 10px;
+    }
+
+    .account p {
+        font-size: 10px;
+    }
+
+    .account span {
+        font-size: 12px;
+    }
+
+    .order p {
+        font-size: 10px;
+    }
+
+    .order span {
+        font-size: 12px;
+    }
+
+    .cart p {
+        font-size: 13px;
+    }
+
+    .search {
+        width: 100%;
+        height: 38px;
+        order: 10;
+    }
+
+    .search select,
+    .searchbutton,
+    .mag {
+        height: 38px;
+    }
+
+    /* Menu */
+    .menu {
+        height: 42px;
+        padding: 0 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+        gap: 20px;
+    }
+
+    .all {
+        flex-shrink: 0;
+    }
+
+    .deals {
+        width: auto;
+        flex-shrink: 0;
+        gap: 20px;
+    }
+
+    .deals p {
+        font-size: 13px;
+    }
+
+    .shopdeals {
+        display: none;
+    }
+
+    /* Hero section */
+    .background {
+        height: 280px;
+        background-position: center;
+    }
+
+    .content {
+        width: 94%;
+        height: auto;
+        min-height: 55px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .content p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* Shopping cards */
+    .shoping,
+    .shoping1 {
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 10px;
+    }
+
+    .out1, .out2, .out3, .out4,
+    .out5, .out6, .out7, .out8 {
+        width: calc(50% - 8px);
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    .box1, .box2, .box3, .box4,
+    .box5, .box6, .box7, .box8 {
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .out1 h3, .out2 h3, .out3 h3, .out4 h3,
+    .out5 h3, .out6 h3, .out7 h3, .out8 h3 {
+        margin: 8px 0;
+        padding: 0;
+        font-size: 16px;
+        min-height: 35px;
+    }
+
+    .shoping p,
+    .shoping1 p {
+        margin: 8px 0;
+        font-size: 13px;
+    }
+
+    /* Footer */
+    .footer2 {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 25px;
+        padding: 25px 15px;
+    }
+
+    .footer2 ul {
+        width: calc(50% - 15px);
+        margin-top: 0;
+    }
+
+    .footer2 p {
+        font-size: 15px;
+    }
+
+    ul a {
+        font-size: 12px;
+    }
+
+    .endbody {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .endlogo {
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+    }
+
+    .eng, .usd, .united {
+        margin: 0;
+        padding: 5px;
+        width: auto;
+        min-width: 110px;
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .footend {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .page, .copyright {
+        margin: 0;
+        padding: 8px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .page a {
+        margin: 5px;
+    }
+}
+
+/* Small mobile phones */
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        gap: 8px;
+    }
+
+    .location pre {
+        padding: 0;
+    }
+
+    .location .icon span {
+        font-size: 12px;
+    }
+
+    .account p {
+        font-size: 9px;
+    }
+
+    .account span {
+        font-size: 11px;
+    }
+
+    .order p {
+        font-size: 9px;
+    }
+
+    .order span {
+        font-size: 11px;
+    }
+
+    .cart i {
+        font-size: 17px;
+    }
+
+    .cart p {
+        font-size: 12px;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .deals {
+        gap: 15px;
+    }
+
+    .deals p {
+        font-size: 12px;
+    }
+
+    .background {
+        height: 220px;
+    }
+
+    .content {
+        width: 96%;
+        padding: 8px;
+    }
+
+    .content p {
+        font-size: 11px;
+    }
+
+    /* Two cards per row */
+    .out1, .out2, .out3, .out4,
+    .out5, .out6, .out7, .out8 {
+        width: calc(50% - 6px);
+        padding: 8px;
+    }
+
+    .box1, .box2, .box3, .box4,
+    .box5, .box6, .box7, .box8 {
+        height: 150px;
+    }
+
+    .out1 h3, .out2 h3, .out3 h3, .out4 h3,
+    .out5 h3, .out6 h3, .out7 h3, .out8 h3 {
+        font-size: 13px;
+        min-height: 32px;
+    }
+
+    .shoping p,
+    .shoping1 p {
+        font-size: 11px;
+    }
+
+    .footer2 ul {
+        width: 100%;
+    }
+
+    .page a {
+        font-size: 11px;
+    }
+}
+
+/* Extra small phones */
+@media screen and (max-width: 350px) {
+
+    .out1, .out2, .out3, .out4,
+    .out5, .out6, .out7, .out8 {
+        width: 100%;
+    }
+
+    .box1, .box2, .box3, .box4,
+    .box5, .box6, .box7, .box8 {
+        height: 220px;
+    }
+
+    .location {
+        display: none;
+    }
+}
